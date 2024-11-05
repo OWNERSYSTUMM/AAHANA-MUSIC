@@ -66,7 +66,7 @@ def music_start_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(text="˹❍ᴡɴᴇꝛ˼", url=config.OWNER_ID),
+            InlineKeyboardButton(text="˹❍ᴡɴᴇꝛ˼", callback_data="about"),
             InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 🥀", callback_data="support"),
         ],
         [InlineKeyboardButton(text="˹ᴍᴏᴅᴇ˼", callback_data="feature")],
