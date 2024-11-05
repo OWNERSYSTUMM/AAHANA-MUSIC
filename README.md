@@ -1,4 +1,4 @@
-# VIP MUSIC BOT
+# AAHANA MUSIC BOT
 
 A powerful Telegram music bot for voice chats with features like YouTube, Spotify, Resso, AppleMusic, and Soundcloud support.
 
@@ -20,12 +20,12 @@ A powerful Telegram music bot for voice chats with features like YouTube, Spotif
 ## ⚡️ Quick Setup
 
 ### Heroku Deployment 
-[![Deploy on Heroku](https://img.shields.io/badge/Deploy%20On%20Heroku-purple?style=for-the-badge&logo=heroku)](https://dashboard.heroku.com/new?template=https://github.com/THE-VIP-BOY-OP/VIP-MUSIC)
+[![Deploy on Heroku](https://img.shields.io/badge/Deploy%20On%20Heroku-purple?style=for-the-badge&logo=heroku)](https://dashboard.heroku.com/new?template=https://github.com/OWNERSYSTUMM/AAHANA-MUSIC)
 
 ### 🖇 VPS Deployment
 - Clone repo: `git clone https://github.com/THE-VIP-BOY-OP/VIP-MUSIC && cd VIP-MUSIC`
 - Setup by: `bash setup`
-- Fill [Extra Variables](https://github.com/THE-VIP-BOY-OP/VIP-MUSIC/blob/master/sample.env) by `nano .env`, save changes with `CTRL+X`, then `y`, then `Enter`
+- Fill [Extra Variables](https://github.com/OWNERSYSTUMM/AAHANA-MUSIC/blob/master/sample.env) by `nano .env`, save changes with `CTRL+X`, then `y`, then `Enter`
 - Install tmux: `sudo apt install tmux && tmux`
 - Run the bot: `bash start`
 - To exit tmux session: Press `Ctrl+b` and then `d`
@@ -45,11 +45,11 @@ Optional variables:
 - `SPOTIFY_CLIENT_SECRET` - Spotify client secret
 - `HEROKU_API_KEY` - Heroku API key
 - `HEROKU_APP_NAME` - Heroku app name
-See [**config docs**](https://github.com/THE-VIP-BOY-OP/VIP-MUSIC/blob/master/config%2FREADME.md) for full list of variables
+See [**config docs**](https://github.com/OWNERSYSTUMM/AAHANA-MUSIC/blob/master/config%2FREADME.md) for full list of variables
 
 ### 🤝 Support
-- Join [**VIP_CREATORS**](https://t.me/VIP_CREATORS) for updates
-- Join [**TG_FRIENDSS**](https://t.me/TG_FRIENDSS) for support
+- Join [**APNA_SYSTEM**](https://t.me/APNA_SYSTEM) for updates
+- Join [**Exampurrs**](https://t.me/Exampurrs) for support
 
 ### 📃 License
 This project is licensed under the [**MIT License**](https://github.com/THE-VIP-BOY-OP/VIP-MUSIC/blob/master/LICENSE)
