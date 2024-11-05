@@ -267,9 +267,9 @@ V_C_5 : "ᴛʜᴇʀᴇ ɪs ɴᴏ ᴀᴄᴛɪᴠᴇ ᴄᴀʟʟ ɪɴ ᴛʜɪs ᴄ�
 
 
 #General Buttons
-CLOSE_BUTTON  : "✯ ¢ℓσѕє ✯"
-CLOSEMENU_BUTTON  : "✯ ¢ℓσѕє ✯"
-BACK_BUTTON : "✯ вα¢к ✯"
+CLOSE_BUTTON  : "˹ᴄʟᴏsᴇ˼"
+CLOSEMENU_BUTTON  : "˹ᴄʟᴏsᴇ˼"
+BACK_BUTTON : "˹ʙᴀᴄᴋ˼"
 UNBAN_BUTTON : "ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ"
 
 #Lyrics
@@ -295,8 +295,8 @@ H_B_15 : "Sᴘᴇᴇᴅ"
 # Start
 S_B_1 : "🗒 Cᴏᴍᴍᴀɴᴅs"
 S_B_2 : "🔧 Sᴇᴛᴛɪɴɢs"
-S_B_3 : "📨 Sᴜᴘᴘᴏʀᴛ"
-S_B_4 : "📨 Cʜᴀɴɴᴇʟ"
+S_B_3 : "˹sᴜᴘᴘᴏʀᴛ˼"
+S_B_4 : "˹ᴄʜᴀɴɴᴇʟ˼"
 S_B_5 : "⚜ ᴄʟɪᴄᴋ ᴛᴏ ᴀᴅᴅ ɪɴ ᴍᴏʀᴇ ᴄʜᴀᴛs ⚜"
 S_B_6 : "💡 Gɪᴛ Rᴇᴘᴏ"
 S_B_7 : "👤 Oᴡɴᴇʀ"
