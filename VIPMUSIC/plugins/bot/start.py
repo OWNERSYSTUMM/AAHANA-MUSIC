@@ -259,9 +259,9 @@ async def start_comm(client, message: Message, _):
             await asyncio.sleep(0.1)
             await vips.edit_text("**𝗧𝗛𝗔𝗡𝗞𝗦 𝗙𝗢𝗥 𝗦𝗧𝗔𝗥𝗧𝗜𝗡𝗚....**")
             await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕтαятιиg.**")
+            await vips.edit_text("**𝗧𝗛𝗔𝗡𝗞𝗦 𝗙𝗢𝗥 𝗦𝗧𝗔𝗥𝗧𝗜𝗡𝗚..**")
             await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕтαятιиg....**")
+            await vips.edit_text("**𝗧𝗛𝗔𝗡𝗞𝗦 𝗙𝗢𝗥 𝗦𝗧𝗔𝗥𝗧𝗜𝗡𝗚....**")
             if message.chat.photo:
 
                 userss_photo = await app.download_media(
