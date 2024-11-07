@@ -470,8 +470,8 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="🎁ɪɴsᴛᴀ🎁", url=f"instagram.com/the.vip.boy"),
-            InlineKeyboardButton(text="💲ʏᴏᴜᴛᴜʙᴇ💲", url=f"youtube.com/@THE_VIP_BOY"),
+            InlineKeyboardButton(text="˹ꜱʏꜱᴛᴇᴍ˼", url=f"https://t.me/APNA_SYSTEM"),
+            InlineKeyboardButton(text="˹ʟᴏᴠᴇ ɪɴ ᴛɪᴍᴇ˼", url=f"http://t.me/love_in_timeee"),
         ],
         [
             InlineKeyboardButton(text="🔙 Back", callback_data="about")
@@ -494,10 +494,10 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
         ],
         [
             InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="music"),
-            InlineKeyboardButton(text="ϻᴧηᴧɢєϻєηᴛ", callback_data="management"),
+            InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="management"),
         ],
         [
-            InlineKeyboardButton(text="ᴛσσʟs", callback_data="tools"),
+            InlineKeyboardButton(text="ᴛᴏᴏʟs", callback_data="tools"),
             InlineKeyboardButton(text="ᴀʟʟ", callback_data="settings_back_helper"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
@@ -505,12 +505,12 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
     k = f"""**❖ ᴛʜɪs ɪs {app.mention} ! 
 
 ━━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━━
-❖ ᴛʜɪs ɪs ϻᴧηᴧɢєϻєηᴛ | ϻυsɪᴄ ʙσᴛ
-❖ ησ ʟᴧɢ | ᴧᴅs ϻυsɪᴄ | ησ ᴘʀσϻσ
-❖ 24x7 ʀυη | ʙєsᴛ sσυηᴅ ǫυᴧʟɪᴛʏ
+❖ ᴛʜɪs ɪs ᴄʜᴀᴛ | ᴍᴀɴᴀɢᴇᴍᴇɴᴛ | ᴍυsɪᴄ ʙσᴛ
+❖ ɴᴏ ʟᴧɢ | ᴧᴅs ᴍυsɪᴄ | ɴᴏ ᴘʀᴏᴍᴏ
+❖ 24x7 ʀυɴ | ʙєsᴛ sᴏυɴᴅ ǫυᴧʟɪᴛʏ
 ━━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━━
-❖ ᴄʟɪᴄᴋ ση ᴛʜє ʜєʟᴩ ʙυᴛᴛση ᴛσ ɢєᴛ ɪηғσ
-    ᴧʙσυᴛ ϻʏ ϻσᴅυʟєs ᴧηᴅ ᴄσϻϻᴧηᴅs...!
+❖ ᴄʟɪᴄᴋ ᴏɴ ᴛʜє ʜєʟᴩ ʙυᴛᴛᴏɴ ᴛᴏ ɢєᴛ ɪɴғᴏ
+    ᴧʙσυᴛ ᴍʏ ᴍᴏᴅυʟєs ᴧɴᴅ ᴄᴏᴍᴍᴧɴᴅs...!
 ━━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━━**"""
     await callback_query.message.edit_text(
         text=k, reply_markup=InlineKeyboardMarkup(keyboard)
@@ -754,12 +754,12 @@ def back_to_management(_):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="✨ᴅᴇᴠᴇʟᴏᴘᴇʀ✨", callback_data="developer"),
-            InlineKeyboardButton(text="⚡ғᴇᴀᴛᴜʀᴇ⚡", callback_data="feature"),
+            InlineKeyboardButton(text="❍ᴡɴᴇꝛ", callback_data="developer"),
+            InlineKeyboardButton(text="ғᴇᴀᴛᴜʀᴇ", callback_data="feature"),
         ],
         [
-            InlineKeyboardButton(text="📓ʙᴀsɪᴄ ɢᴜɪᴅᴇ📓", callback_data="basic_guide"),
-            InlineKeyboardButton(text="⚜️ᴅᴏɴᴀᴛᴇ⚜️", callback_data="donate"),
+            InlineKeyboardButton(text="ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="basic_guide"),
+            InlineKeyboardButton(text="˹ꜱᴛᴜᴅʏ˼", callback_data="donate"),
         ],
         [InlineKeyboardButton(text="🔙 Back", callback_data="go_to_start")],
     ]
@@ -774,15 +774,15 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
 async def back_button_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
-            InlineKeyboardButton(text="🎭ᴏᴡɴᴇʀ🎭", user_id=config.OWNER_ID[0]),
+            InlineKeyboardButton(text="❍ᴡɴᴇꝛ", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
-                text="🌱ɢɪᴛʜᴜʙ🌱",
-                url="https://github.com/THE-VIP-BOY-OP",
+                text="ɢɪᴛʜᴜʙ",
+                url="https://t.me/APNA_SYSTEM",
             ),
         ],
         [
-            InlineKeyboardButton(text="⛅ɢʀᴏᴜᴘ⛅", url=f"{config.SUPPORT_GROUP}"),
-            InlineKeyboardButton(text="🎄ᴄʜᴀɴɴᴇʟ🎄", url=f"{config.SUPPORT_CHANNEL}"),
+            InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=f"{config.SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"{config.SUPPORT_CHANNEL}"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -798,7 +798,7 @@ async def settings_back_callback(client: Client, callback_query: CallbackQuery):
     close = [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
     await callback_query.message.reply_photo(
         photo=donate,
-        caption=f"**sᴜᴘᴘᴏʀᴛ ᴍʏ ᴄᴏᴅɪɴɢ ᴊᴏᴜʀɴᴇʏ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ʜᴇʟᴘ ᴇɴʜᴀɴᴄᴇ ᴍʏ ʙᴏᴛ's ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ.**\n\n**ʏᴏᴜʀ ᴄᴏɴᴛʀɪʙᴜᴛɪᴏɴ ᴡɪʟʟ ᴅɪʀᴇᴄᴛʟʏ ғᴜɴᴅ ᴛʜᴇ ᴄʀᴇᴀᴛɪᴏɴ ᴏғ ɪɴɴᴏᴠᴀᴛɪᴠᴇ, ᴜsᴇʀ-ғʀɪᴇɴᴅʟʏ ᴛᴏᴏʟs ᴀɴᴅ ᴇxᴄɪᴛɪɴɢ ʙᴏᴛ ᴄᴀᴘᴀʙɪʟɪᴛɪᴇs.**\n\n**sɪᴍᴘʟʏ sᴄᴀɴ ᴛʜᴇ ᴄᴏᴅᴇ ᴀɴᴅ ᴍᴀᴋᴇ ᴀ ᴘᴀʏᴍᴇɴᴛ—ɴᴏ ʜᴀssʟᴇ, ᴊᴜsᴛ ᴀ ǫᴜɪᴄᴋ ᴡᴀʏ ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ʜᴇʟᴘ ʙʀɪɴɢ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs ᴛᴏ ʟɪғᴇ.**\n\n**ᴇᴠᴇʀʏ ᴅᴏɴᴀᴛɪᴏɴ, ʙɪɢ ᴏʀ sᴍᴀʟʟ, ɢᴏᴇs ᴀ ʟᴏɴɢ ᴡᴀʏ ɪɴ ᴘᴜsʜɪɴɢ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ғᴏʀᴡᴀʀᴅ. ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ʙᴇɪɴɢ ᴀ ᴘᴀʀᴛ ᴏғ ᴛʜɪs ᴇxᴄɪᴛɪɴɢ ᴊᴏᴜʀɴᴇʏ!**",
+        caption=f"**sᴜᴘᴘᴏʀᴛ ᴏᴜʀ ɢʀᴏᴜᴘ ᴇxᴀᴍᴘᴜʀ\n\**𝐉𝐎𝐈𝐍 ❥︎ @exampurrs**",
         reply_markup=InlineKeyboardMarkup(close),
     )
 
