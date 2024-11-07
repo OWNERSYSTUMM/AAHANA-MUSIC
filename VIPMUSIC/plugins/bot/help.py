@@ -28,7 +28,7 @@ HELP_COMMAND = get_command("HELP_COMMAND")
 COLUMN_SIZE = 4
 NUM_COLUMNS = 3
 
-donate = "https://envs.sh/AeS.jpg"
+donate = "https://files.catbox.moe/c8rft5.jpg"
 
 
 class EqInlineKeyboardButton(InlineKeyboardButton):
@@ -464,9 +464,9 @@ async def tools_callback_cb(client, CallbackQuery, _):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="🔰ᴏᴡɴᴇʀ🔰", user_id=config.OWNER_ID[0]),
+            InlineKeyboardButton(text="❍ᴡɴᴇꝛ", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
-                text="📍sᴜᴅᴏᴇʀs📍", url=f"https://t.me/{app.username}?start=sudo"
+                text="sᴜᴅᴏᴇʀs", url=f"https://t.me/{app.username}?start=sudo"
             ),
         ],
         [
@@ -474,7 +474,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
             InlineKeyboardButton(text="˹ʟᴏᴠᴇ ɪɴ ᴛɪᴍᴇ˼", url=f"http://t.me/love_in_timeee"),
         ],
         [
-            InlineKeyboardButton(text="🔙 Back", callback_data="about")
+            InlineKeyboardButton(text="Back", callback_data="about")
         ],  # Use a default label for the back button
     ]
     await callback_query.message.edit_text(
