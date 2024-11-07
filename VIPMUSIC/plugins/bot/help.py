@@ -759,7 +759,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         ],
         [
             InlineKeyboardButton(text="ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="basic_guide"),
-            InlineKeyboardButton(text="˹ꜱᴛᴜᴅʏ˼", callback_data="donate"),
+            InlineKeyboardButton(text="˹ꜱᴛᴜᴅʏ˼", url=f"http://t.me/Exampurrs"),
         ],
         [InlineKeyboardButton(text="🔙 Back", callback_data="go_to_start")],
     ]
@@ -790,16 +790,6 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
     await callback_query.message.edit_text(
         "**๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ**\n\n**ɪғ ʏᴏᴜ ғɪɴᴅ ᴀɴʏ ᴇʀʀᴏʀ ᴏʀ ʙᴜɢ ᴏɴ ʙᴏᴛ ᴏʀ ᴡᴀɴᴛ ᴛᴏ ɢɪᴠᴇ ᴀɴʏ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ ʙᴏᴛ ᴛʜᴇɴ ʏᴏᴜ ᴀʀᴇ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ  (✿◠‿◠)**",
         reply_markup=InlineKeyboardMarkup(keyboard),
-    )
-
-
-@app.on_callback_query(filters.regex("donate"))
-async def settings_back_callback(client: Client, callback_query: CallbackQuery):
-    close = [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
-    await callback_query.message.reply_photo(
-        photo=donate,
-        caption=f"**sᴜᴘᴘᴏʀᴛ ᴏᴜʀ ɢʀᴏᴜᴘ ᴇxᴀᴍᴘᴜʀ\n\**𝐉𝐎𝐈𝐍 ❥︎ @exampurrs**",
-        reply_markup=InlineKeyboardMarkup(close),
     )
 
 
