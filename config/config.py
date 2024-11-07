@@ -7,7 +7,7 @@
 #
 # All rights reserved.
 import os
-import re
+import re 
 from os import getenv
 
 from dotenv import load_dotenv
@@ -74,7 +74,7 @@ LOG_GROUP_ID = getenv("LOG_GROUP_ID", "")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7299227823").split())
+    map(int, getenv("OWNER_ID", "6644859358").split())
 )  # Input type must be interger
 
 
@@ -314,7 +314,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg":
+    if PING_IMG_URL != "https://files.catbox.moe/j1rfx0.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
