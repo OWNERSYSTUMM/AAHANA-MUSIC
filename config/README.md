@@ -88,7 +88,7 @@ Config vars are basically the variables which configure or modify bot to functio
 
 ## Images/Thumbnail Vars
 
-- You can change images which are used in VIP Music Bot.
+- You can change images which are used in Music Bot.
 - You can generate telegaph links from [@VIPTelegraphBot](http://t.me/VIPTelegraphBot) and use it here.
 
 1. `START_IMG_URL` : Image which comes on /start command in private messages of bot.
