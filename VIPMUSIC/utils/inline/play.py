@@ -92,14 +92,6 @@ def stream_markup_timerr(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="📥 ᴠɪᴅᴇᴏ", callback_data=f"downloadvideo {videoid}"
-            ),
-            InlineKeyboardButton(
-                text="📥 ᴀᴜᴅɪᴏ", callback_data=f"downloadaudio {videoid}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
                 text="๏ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ๏",
                 callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
             ),
