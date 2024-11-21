@@ -274,7 +274,7 @@ async def start_comm(client, message: Message, _):
             chat_photo = START_IMG_URL if userss_photo else START_IMG_URL
 
         except AttributeError:
-            chat_photo = "assets/nodp.png"
+            chat_photo = "https://files.catbox.moe/heecqt.jpg"
         await vips.delete()
         await message.reply_photo(
             photo=chat_photo,
