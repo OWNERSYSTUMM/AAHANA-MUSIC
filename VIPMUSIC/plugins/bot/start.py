@@ -298,7 +298,7 @@ async def testbot(client, message: Message, _):
         try:
             # Try downloading the group's photo
             groups_photo = await client.download_media(
-                message.chat.photo.big_file_id, file_name=f"chatpp{chat_id}.png"
+                message.START_IMG_URL, file_name=f"https://files.catbox.moe/heecqt.jpg"
             )
             chat_photo = groups_photo if groups_photo else START_IMG_URL
         except AttributeError:
