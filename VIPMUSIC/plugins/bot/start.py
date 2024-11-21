@@ -264,14 +264,29 @@ async def start_comm(client, message: Message, _):
             await vips.edit_text("**𝗧𝗛𝗔𝗡𝗞𝗦 𝗙𝗢𝗥 𝗦𝗧𝗔𝗥𝗧𝗜𝗡𝗚....**")
             if message.chat.photo:
 
-                photo=config.START_IMG_URL,
+                userss_photo = await app.download_media(
+                    message.START_IMG_URL,
+                )
+            else:
+                userss_photo = "assets/nodp.png"
+            if userss_photo:
+                chat_photo = userss_photo
+            chat_photo = START_IMG_URL if userss_photo else START_IMG_URL
+
+        except AttributeError:
+            chat_photo = "assets/nodp.png"
+        await vips.delete()
+        await message.reply_photo(
+            photo=chat_photo,
             caption=_["start_2"].format(message.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(out),
         )
-        if await is_on_off(2):
+        if await is_on_off(config.LOG):
+            sender_id = message.from_user.id
+            sender_name = message.from_user.first_name
             return await app.send_message(
-                chat_id=config.LOGGER_ID,
-                text=f"{message.from_user.mention} ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ.\n\n<b>ᴜsᴇʀ ɪᴅ :</b> <code>{message.from_user.id}</code>\n<b>ᴜsᴇʀɴᴀᴍᴇ :</b> @{message.from_user.username}",
+                config.LOG_GROUP_ID,
+                f"{message.from_user.mention} ʜᴀs sᴛᴀʀᴛᴇᴅ ʙᴏᴛ. \n\n**ᴜsᴇʀ ɪᴅ :** {sender_id}\n**ᴜsᴇʀ ɴᴀᴍᴇ:** {sender_name}",
             )
 
 
