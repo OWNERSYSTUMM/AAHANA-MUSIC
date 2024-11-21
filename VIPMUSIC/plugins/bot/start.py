@@ -268,7 +268,7 @@ async def start_comm(client, message: Message, _):
                     message.START_IMG_URL,
                 )
             else:
-                userss_photo = "START_IMG_URL"
+                userss_photo = "https://files.catbox.moe/heecqt.jpg"
             if userss_photo:
                 chat_photo = userss_photo
             chat_photo = START_IMG_URL if userss_photo else START_IMG_URL
