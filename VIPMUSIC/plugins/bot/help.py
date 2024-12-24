@@ -777,7 +777,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             InlineKeyboardButton(text="❍ᴡɴᴇꝛ", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
                 text="ɢɪᴛʜᴜʙ",
-                url="https://t.me/APNA_SYSTEM",
+                url="https://t.me/love_in_timeeee",
             ),
         ],
         [
