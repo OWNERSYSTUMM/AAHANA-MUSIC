@@ -265,16 +265,16 @@ async def start_comm(client, message: Message, _):
             if message.chat.photo:
 
                 userss_photo = await app.download_media(
-                    message.START_IMG_URL,
+                    message.chat.photo.big_file_id,
                 )
             else:
-                userss_photo = "https://files.catbox.moe/heecqt.jpg"
+                userss_photo = "assets/nodp.png"
             if userss_photo:
                 chat_photo = userss_photo
-            chat_photo = START_IMG_URL if userss_photo else START_IMG_URL
+            chat_photo = userss_photo if userss_photo else START_IMG_URL
 
         except AttributeError:
-            chat_photo = "https://files.catbox.moe/heecqt.jpg"
+            chat_photo = "assets/nodp.png"
         await vips.delete()
         await message.reply_photo(
             photo=chat_photo,
